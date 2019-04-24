@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.miet.examplesignin.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/tree"
+        android:scaleType="centerCrop"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="190dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login into"
+            android:layout_marginTop="100dp"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:layout_marginBottom="20dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_gravity="center"
+            android:fontFamily="cursive"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Detriot Anethesia"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="monospace"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username@gmail.com"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:id="@+id/username"
+            android:fontFamily="monospace"
+            android:layout_marginRight="20dp"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#000000"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="#000000"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColor="#000000"
+            android:layout_marginRight="20dp"
+            android:textSize="15sp"
+            android:id="@+id/password"
+            android:fontFamily="monospace"
+            android:inputType="textPassword"
+            android:textColorHint="#000000"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="#000000"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:text="Login"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

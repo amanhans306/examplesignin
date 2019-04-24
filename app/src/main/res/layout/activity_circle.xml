@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#282626"
+    android:padding="20dp"
+    tools:context="com.miet.examplesignin.circle">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iron"
+        app:civ_border_color="#000000"
+        app:civ_border_width="5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="write somthing to be printed"
+        android:gravity="center"
+        android:textColorHint="#000000"
+        android:fontFamily="cursive"
+        android:id="@+id/edittext"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:background="@drawable/search"
+        android:layout_marginRight="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello Guys"
+        android:gravity="center"
+        android:textColor="#f55404"
+        android:layout_marginTop="25dp"
+        android:fontFamily="cursive"
+        android:textSize="40sp"
+        android:id="@+id/text"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="submit"
+        android:id="@+id/submit"
+        android:fontFamily="casual"
+        android:textSize="15sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+
+
+</LinearLayout>
